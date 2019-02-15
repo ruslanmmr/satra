@@ -1,0 +1,30 @@
+@media print {
+  .noprint {
+    display: none !important;
+  }
+  .header .group.sup {
+  	border-bottom: none !important;
+  }
+  #set,
+  .tiles_catalogue {
+     page-break-before: always;
+  }
+  .tiles_catalogue .card {
+  	display: table;
+  	width: 50%;
+  }
+  body {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.45;
+    color: #000;
+    background: none;
+    font-size: 14pt !important;;
+  }
+
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+}

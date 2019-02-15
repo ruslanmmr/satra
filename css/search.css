@@ -1,0 +1,166 @@
+@charset "UTF-8";
+.filter {
+  border-bottom: none; }
+
+.breadcrumbs {
+  margin-top: 0; }
+
+.catalog .sort-line {
+  margin-top: 0px !important; }
+
+.links_block {
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 15px !important;
+  bottom: 0 !important; }
+  .links_block a {
+    margin: 0 !important; }
+    .links_block a:first-child {
+      margin-right: 5px !important; }
+
+.search_inform {
+  margin-top: 45px; }
+  .search_inform .box_title {
+    margin-bottom: 25px; }
+  .search_inform .item_content {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 25px 40px; }
+  .search_inform .content_list {
+    padding: 0;
+    margin: 0px -40px -25px -40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .search_inform li {
+    width: 14.28%;
+    margin-bottom: 20px;
+    text-align: center; }
+
+.catalogue .catalog-page {
+  margin-top: 0; }
+
+.filter .section .tab_content {
+  display: block; }
+
+.container_search form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .container_search form:before {
+    content: 'Введите запрос:';
+    margin-right: 8px;
+    color: #1e0602;
+    white-space: nowrap; }
+
+.container_search .input_group {
+  width: 480px; }
+
+.container_search .search {
+  border: 1px solid #e5e5e5;
+  padding: 55px 25px;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.container_nothing .nothing_content, .container_nothing .search_content, .container_search .nothing_content, .container_search .search_content {
+  border: 1px solid #e5e5e5;
+  padding: 55px 25px;
+  text-align: center; }
+
+.container_nothing .nothing_found_txt, .container_search .nothing_found_txt {
+  font-size: 30px;
+  color: #e1e1e1;
+  display: block;
+  padding-bottom: 65px;
+  margin-bottom: 50px;
+  position: relative; }
+  .container_nothing .nothing_found_txt:before, .container_search .nothing_found_txt:before {
+    content: '';
+    height: 1px;
+    width: 180px;
+    background-color: #e1e1e1;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+
+.container_nothing .individual_txt, .container_search .individual_txt {
+  color: #1e0602;
+  position: relative; }
+  .container_nothing .individual_txt:before, .container_search .individual_txt:before {
+    content: '';
+    display: block;
+    width: 98px;
+    height: 96px;
+    background: url(../images/search_icon.png) no-repeat;
+    margin: 0 auto;
+    margin-bottom: 23px; }
+  .container_nothing .individual_txt .number a, .container_search .individual_txt .number a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e0602;
+    display: block;
+    margin-top: 0.7em; }
+
+.catalog-cards .count_item {
+  display: none;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #1e0602; }
+
+@media all and (max-width: 992px) {
+  .search_inform li {
+    width: 20%; } }
+
+@media all and (max-width: 768px) {
+  .search_inform li {
+    width: 25%; }
+  .catalog-page .count_item {
+    display: block; }
+  .container_search .input_group {
+    width: 100%; }
+  .container_search form {
+    width: 100%; } }
+
+@media all and (max-width: 576px) {
+  .search_inform {
+    display: none; }
+  .container_search .search {
+    padding: 45px 25px; }
+  .container_nothing .nothing_found_txt {
+    font-size: 22px;
+    padding-bottom: 45px; }
+  .container_nothing .nothing_content {
+    padding: 45px 25px;
+    padding-bottom: 50px; }
+  .container_search form {
+    display: block;
+    width: 100%; }
+  .container_search form:before {
+    margin-right: 0;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px; } }
